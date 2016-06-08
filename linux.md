@@ -34,3 +34,22 @@
 - ps ax 显示当前系统运行的所有进程，包括其他用户的进程
 - ps u 显示更详细的进程信息
 - ps w 显示命令的全名
+
+
+
+###chmod 参数
+- u 当前所有者
+- x 文件可执行
+- \- 无
+- r 文件可读
+- w 文件可写
+- g 对用户组
+- o 对所有其他用户
+
+
+- ln -s 创建符号链接（软链接）
+
+### tar.gz
+- 压缩 tar -zcvf filename.tar.gz file1
+- 解压缩 tar -zxvf filename.tar.gz
+
