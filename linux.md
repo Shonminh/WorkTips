@@ -22,3 +22,15 @@
 6. Ctrl+E 光标至行尾
 7. Ctrl+W 删除前一个词
 8. Ctrl+U 删除从光标至行首的内容
+
+
+*注：*这是BSD风格，ps支持三种风格，导致显示有些区别
+
+1.   UNIX options, which may be grouped and must be preceeded by a dash.
+2.   BSD options, which may be grouped and must not be used with a dash.
+3.   GNU long options, which are preceeded by two dashes.
+
+- ps x 显示当期用户的所有进程
+- ps ax 显示当前系统运行的所有进程，包括其他用户的进程
+- ps u 显示更详细的进程信息
+- ps w 显示命令的全名
