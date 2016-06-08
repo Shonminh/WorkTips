@@ -9,3 +9,16 @@
 - ctrl + C 终止当前命令，换行
 - mkdir -p 创建中间文件 如：mkdir -p /path/with/many/layer 则会创建中间层的目录
 - mkdir -m 制作文件夹的权限
+- diff file1 file2 比较两者的区别，diff -u 格式更加易读
+
+###在写shell时的文本编辑操作
+*注:*在终端时极为使用，效率！
+
+1. Ctrl+B 左移光标
+2. Ctrl+F 右移光标
+3. Ctrl+P 查看上一条命令
+4. Ctrl+N 查看下一条命令
+5. Ctrl+A 光标至行首
+6. Ctrl+E 光标至行尾
+7. Ctrl+W 删除前一个词
+8. Ctrl+U 删除从光标至行首的内容
