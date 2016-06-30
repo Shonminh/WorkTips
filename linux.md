@@ -53,3 +53,10 @@
 - 压缩 tar -zcvf filename.tar.gz file1
 - 解压缩 tar -zxvf filename.tar.gz
 
+
+###文件每行内容乱序(洗牌)
+- cat in.txt | awk 'BEGIN{srand()}{print rand()"\t"$0}' | sort -k1,1 -n | cut -f2- > out.txt
+
+
+
+
