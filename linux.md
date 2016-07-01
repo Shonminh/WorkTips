@@ -57,6 +57,21 @@
 ###文件每行内容乱序(洗牌)
 - cat in.txt | awk 'BEGIN{srand()}{print rand()"\t"$0}' | sort -k1,1 -n | cut -f2- > out.txt
 
+###文件转码
+- 将utf-8 编码的文件转换成gbk内容的编码:
+`iconv -f utf-8 -t gbk file1 -o file2`
+- 文件名编码转换:
+`convmv -f 源编码 -t 新编码 [option] 文件名`
+常用参数：
+1.          -r 递归处理子文件夹
+2.          --notest 真正进行操作，请注意在默认情况下是不对文件进行真实操作的，而只是试验。
+3.          --list 显示所有支持的编码
+4.          --unescap 可以做一下转义，比如把%20变成空格
+5.    比如我们有一个utf8编码的文件名，转换成GBK编码，命令如下：
+    convmv -f UTF-8 -t GBK --notest utf8编码的文件名
+
+6.    这样转换以后"utf8编码的文件名"会被转换成GBK编码（只是文件名编码的转换，文件内容不会发生变化）
+
 
 
 
