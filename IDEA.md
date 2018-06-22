@@ -3,3 +3,4 @@
 - 选中一个词alt+⬆️/⬇️,和win下面的ctrl+w ctrl+shift+B有点区别。
 - IDEA中查看方法/类前面的javadoc的快捷键是ctrl+j,和win的ctrl+q有区别。
 - Mac中翻页的快捷键是fn+⬆️/⬇️
+- 直接打断点的快捷键是 cmd + F8
