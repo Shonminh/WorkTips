@@ -4,3 +4,7 @@
 - IDEA中查看方法/类前面的javadoc的快捷键是ctrl+j,和win的ctrl+q有区别。
 - Mac中翻页的快捷键是fn+⬆️/⬇️
 - 直接打断点的快捷键是 cmd + F8
+- 直接打开`Breakpoints`界面的快捷键是cmd+shift+F8
+![image](https://user-images.githubusercontent.com/7269690/41786390-f0651fc6-7677-11e8-9b7c-c6911bcc5f48.png)
+
+
